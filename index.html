@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://www.instagram.com</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="shortcut icon" href="img/instalogo1.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <style>
+        section{
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+        }
+        .upper{
+            border: 1px solid gray;
+            height: 400px;
+            width: 350px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
+        }
+        .lower{
+            border: 1px solid gray;
+            height: 50px;
+            width: 350px; 
+            margin-top: 20px; 
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px black;
+        }
+        .side-bar{
+            margin-top: 20px;
+            margin-left: 230px;
+        }
+        .left-bar, .right-bar{
+            border-top: 1px solid gray;
+            width: 80px;
+        }
+        .new{
+            display: flex;
+        }
+        .title-bar{
+            margin-left:20px ;
+            margin-right: 20px;
+            margin-top: -10px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .facebook{
+            margin-left: 70px;
+            margin-top: 10px;
+        }
+        .forget{
+            margin-left: 110px;
+            margin-top: 10px;
+            font-size: 13px;
+        }
+        .lower-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .app{
+            margin-left: 150px;
+            margin-top: 10px;
+            font-size: 13px;
+        }
+        .apps{
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+        }
+        footer{
+            display: grid;
+            grid-template-columns: 12fr;
+            text-align: center;
+            font-family:arial ;
+            color: gray;
+            font-size: 12px;
+            margin-left: 300px;
+            height: 200px;
+            width: 600px;
+            margin-top: 30px;
+        }
+        .row2{
+            margin-top: -40px;
+        }
+        .active:hover{
+            color: gray;
+        }
+    </style>
+</head>
+<body class="container-fluid">
+    <header>
+
+    </header>
+<!--section-->
+    <section>
+        <!--mobile image-->
+        <div class="side-bar">
+            <img src="img/instaside2.png" height="520" width="350">
+        </div>
+        <!--upper box-->
+        <div>
+            <form class="align-items-center">
+                <div class="upper">
+                    <div class="mt-5 mb-5">
+                        <img src="img/instalogo.png" height="50" width="300">
+                    </div>
+                    <div class="mb-3 ms-5">
+                        <input type="email" name="email" required placeholder="phone number,username,or email" class="form-control w-75" >
+                    </div>
+                    <div class="mb-3 ms-5">
+                        <input type="password" name="password" required pattern="[A-Z]\w{2}\W\d{2}" class="form-control w-75" placeholder="password" >
+                    </div>
+                    <div class="mb-3 ms-5">
+                        <button class="btn btn-primary w-75">Log in</button>
+                    </div>
+                    <div class="mt4 ms-5">
+                        <div class="new">
+                            <div class="left-bar "></div>
+                            <div class="title-bar">OR</div>
+                            <div class="right-bar"></div>
+                        </div>
+                    </div>
+                    <div class="facebook">
+                        <font color="blue"><span class="bi bi-facebook">  <a href="# ">  Log in with FaceBook</a></span></font>
+                    </div>
+                    <div class="forget">
+                        <p><a href="#"> Forget Password ?</a></p>
+                    </div>
+                </div>
+            </form>
+        <!--lower box-->
+            <div class="lower">
+                <div class="lower-box">Don't have an account? <a href="#"> Sign up</a></div>
+            </div>
+            <div class="app">
+                <p><font color="gray"><a href=#>Get the app</a></font> </p>
+            </div>
+            <div class="apps">
+                <div>
+                    <a href="#" ><img src="img/googleplay.png" height="70" width="150" ></a>
+                </div>
+                <div>
+                    <a href="#" ><img src="img/microsoft.png" height="70" width="150"> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--end section-->
+
+<!--start footer-->
+    <footer>
+        <div class="active"> 
+            <span><a href="#"> Meta</a></span>
+            <span><a href="#">About</a></span>
+            <span><a href="#">Blog</a></span>
+            <span><a href="#">Jobs</a></span>
+            <span><a href="#">help</a></span>
+            <span><a href="#">Api</a></span>
+            <span><a href="#">Privacy</a></span>
+            <span><a href="#">Terms</a></span>
+            <span><a href="#">Top account</a></span>
+            <span><a href="#">Location</a></span>
+            <span><a href="#">Instagram Lite</a></span>
+            <span><a href="#">Contact Uploading&non Users</a></span>
+            <span><a href="#">Meta Verified</a></span>
+        </div>
+        <div class="row2" >
+            <select>
+                <option>English</option>
+                <option>Hindi</option>
+                <option>Telugu</option>
+            </select>
+            <span>&copy;2023 Instagram From Meta</span>   
+        </div>
+        <div> &copy;2023 ,Designed by <i><b>V.AKHILA BAI</b></i></div>
+    </footer>
+    
+</body>
+</html>
